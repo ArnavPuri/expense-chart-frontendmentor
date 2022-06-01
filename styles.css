@@ -102,6 +102,25 @@ hr {
     justify-content: flex-end;
 }
 
+.tooltip {
+    display: none;
+    background-color: hsl(25, 47%, 15%);
+    color: hsl(33, 100%, 98%);
+    margin: 4px 0;
+    border-radius: 6px;
+    font-size: 11px;
+    padding: 4px;
+    font-weight: 400;
+}
+
+.column:hover .bar{
+    background-color: hsla(10, 79%, 65%, 0.7);
+    cursor: pointer;
+}
+
+.column:hover .tooltip{
+    display: block;
+}
 .bar {
     background-color: hsl(10, 79%, 65%);
     border-radius: 4px;
@@ -123,6 +142,9 @@ hr {
 #wed {
     height: 106px;
     background-color: hsl(186, 34%, 60%);
+}
+#wed-col:hover .bar {
+    background-color: hsla(186, 34%, 60%, 0.821);
 }
 
 #thu {
