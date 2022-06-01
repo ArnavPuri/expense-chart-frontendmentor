@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    background-color: hsl(27, 66%, 92%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: hsl(10, 79%, 65%);
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 12px;
+    color: hsl(27, 66%, 92%);
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+
+.header .title {
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    margin: 6px 0;
+}
+.logo {
+    width: 54px;
+}
+.logo img {
+    width: 100%;
+}
+.card {
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 12px;
+    padding: 24px;
+    width: 100%;
+}
+
+.card>.title {
+    font-size: 20px;
+    color: hsl(25, 47%, 15%);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    font-size: 12px;
+}
+.subtitle {
+    font-size: 11px;
+    color: hsl(28, 10%, 53%);
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: hsl(25, 47%, 15%);
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(27, 66%, 92%);
+    border: none;
+    margin: 12px 0;
+}
+
+.chart {
+    display: flex;
+    margin: 16px 0;
+    height: 150px;
+}
+
+.chart .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bar {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 4px;
+    height: 32px;
+    width: 32px;
+}
+.label {
+    color:hsl(28, 10%, 53%);
+    font-size: 12px;
+}
+
+#mon {
+    height: 36px;
+}
+#tue {
+    height: 70px;
+}
+
+#wed {
+    height: 106px;
+    background-color: hsl(186, 34%, 60%);
+}
+
+#thu {
+    height: 4p2x;
+}
+
+#fri {
+    height: 48px;
+}
+
+#sat {
+    height: 86px;
+}
+
+
+#sun {
+    height: 50px;
+}
